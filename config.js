@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~LB50AL7b#G8bI46yIyfoeIkgDW65xOTF8GU2QnYqsIv3sN0V67Ys",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~nJBmXLwC#uriJIJpAyCaB4wyoX0n0f-2MzSJdRDpoUsnf_tWxuHU",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -27,9 +27,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/gk3xbd.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𝛧𝛩𝑅𝛩     ༒    𝛭𝛲𝛫       𓃵",
+BOT_NAME: process.env.BOT_NAME || "𝘿𝘼𝙉𝙂𝙀",
 // add bot namw here for men
-STICKER_NAME: process.env.STICKER_NAME || "𝛧𝛩𝑅𝛩     ༒    𝛭𝛲𝛫       𓃵",
+STICKER_NAME: process.env.STICKER_NAME || "𝘿𝘼𝙉𝙂𝙀",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -39,7 +39,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "50955207761",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "𝛧𝛩𝑅𝛩     ༒    𝛭𝛲𝛫       𓃵",
+OWNER_NAME: process.env.OWNER_NAME || "𝘿𝘼𝙉𝙂𝙀",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*",
 // add bot owner name    
