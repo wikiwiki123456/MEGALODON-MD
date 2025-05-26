@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~nJBmXLwC#uriJIJpAyCaB4wyoX0n0f-2MzSJdRDpoUsnf_tWxuHU",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~2YolQKRD#CJRySwPW9mL-xAEwq4-zdwu5yqqZtI5qA5J1zu1tw3I",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -21,15 +21,15 @@ ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
-MENTION_REPLY: process.env.MENTION_REPLY || "true",
+MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/gk3xbd.jpg",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/6fp7ag.mp4",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ",",
+PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𝘿𝘼𝙉𝙂𝙀",
+BOT_NAME: process.env.BOT_NAME || "𓊈𝚳𝚪𓊉     𝛧𝛩𝑅𝛩      ༒     𝛭𝛲𝛫       𓉳",
 // add bot namw here for men
-STICKER_NAME: process.env.STICKER_NAME || "𝘿𝘼𝙉𝙂𝙀",
+STICKER_NAME: process.env.STICKER_NAME || "𓊈𝚳𝚪𓊉     𝛧𝛩𝑅𝛩      ༒     𝛭𝛲𝛫       𓉳",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -39,7 +39,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "50955207761",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "𝘿𝘼𝙉𝙂𝙀",
+OWNER_NAME: process.env.OWNER_NAME || "𓊈𝚳𝚪𓊉     𝛧𝛩𝑅𝛩      ༒     𝛭𝛲𝛫       𓉳",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*",
 // add bot owner name    
@@ -55,11 +55,11 @@ ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
